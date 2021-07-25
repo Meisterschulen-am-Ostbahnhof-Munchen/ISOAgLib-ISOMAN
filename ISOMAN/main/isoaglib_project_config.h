@@ -28,7 +28,7 @@
 #define USE_DATASTREAMS_IO
 #define USE_ISO_11783
 //#define USE_EEPROM_IO
-#define USE_TRACTOR_GENERAL
+//#define USE_TRACTOR_GENERAL
 #define USE_TRACTOR_MOVE
 #define USE_ISO_VIRTUALTERMINAL_CLIENT
 #define PRJ_ISO_TERMINAL_OBJECT_SELECTION1 component_vtclient_pool/tutorialComplexVtClient-objectselection.inc
