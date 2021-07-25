@@ -1,9 +1,11 @@
 # Edit following two lines to set component requirements (see docs)
 set(COMPONENT_REQUIRES )
-set(COMPONENT_PRIV_REQUIRES )
+set(COMPONENT_PRIV_REQUIRES 
+	spi_flash
+	main)
 
 set(COMPONENT_SRCS 
-  ./IsoAgLib/library/xgpl_src/IsoAgLib/comm/impl/isobus_c.cpp
+  IsoAgLib/library/xgpl_src/IsoAgLib/comm/impl/isobus_c.cpp
   IsoAgLib/library/xgpl_src/IsoAgLib/comm/iproprietarybus_c.cpp
   IsoAgLib/library/xgpl_src/IsoAgLib/comm/Part12_DiagnosticsServices/impl/diagnosticfunctionalities_c.cpp
   IsoAgLib/library/xgpl_src/IsoAgLib/comm/Part12_DiagnosticsServices/impl/diagnosticpgnhandler_c.cpp
@@ -98,7 +100,10 @@ set(COMPONENT_SRCS
   IsoAgLib/library/xgpl_src/supplementary_driver/driver/eeprom/impl/eepromio_c.cpp)
   
 set(COMPONENT_ADD_INCLUDEDIRS 
-  ./IsoAgLib/IsoAgLib/library/xgpl_src
+	.
+	./IsoAgLib
+	./IsoAgLib/library
+	./IsoAgLib/library/xgpl_src
 )
   
 register_component()
