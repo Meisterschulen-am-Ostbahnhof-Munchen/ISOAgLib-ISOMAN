@@ -1,6 +1,3 @@
-[submodule "ISOMAN/components/Lib/ISOAgLib"]
-	path = ISOMAN/components/Lib/ISOAgLib
-	url = https://bitbucket.osb-ag.de/scm/ccieop/ISOAgLib.git
 [submodule "ISOMAN/components/ISOAgLib-tutorial-private"]
 	path = ISOMAN/components/ISOAgLib-tutorial-private
 	url = https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/ISOAgLib-tutorial-private.git
