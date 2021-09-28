@@ -5,13 +5,13 @@
 #error Do not include this file directly!
 #endif
 // These defines are needed for inclusion of the correct HAL modules:
-#define HAL_PATH_ISOAGLIB ../../../IsoAgLib-tutorial-private/src/IsoAgLib/hal/esp32
-#define HAL_PATH_ISOAGLIB_SYSTEM ../../../IsoAgLib-tutorial-private/src/IsoAgLib/hal/esp32/system
-#define HAL_PATH_ISOAGLIB_CAN ../../../IsoAgLib-tutorial-private/src/IsoAgLib/hal/esp32/can
-#define HAL_PATH_SUPPLEMENTARY_EEPROM ../../../IsoAgLib-tutorial-private/src/supplementary_driver/hal/esp32/eeprom
-#define HAL_PATH_SUPPLEMENTARY_RS232 ../../../IsoAgLib-tutorial-private/src/supplementary_driver/hal/esp32/rs232
-#define HAL_PATH_SUPPLEMENTARY_OUTPUTS ../../../IsoAgLib-tutorial-private/src/supplementary_driver/hal/esp32/outputs
-#define HAL_PATH_SUPPLEMENTARY_INPUTS ../../../IsoAgLib-tutorial-private/src/supplementary_driver/hal/esp32/inputs
+#define HAL_PATH_ISOAGLIB ../../../ISOAgLib-tutorial-private/src/IsoAgLib/hal/esp32
+#define HAL_PATH_ISOAGLIB_SYSTEM ../../../ISOAgLib-tutorial-private/src/IsoAgLib/hal/esp32/system
+#define HAL_PATH_ISOAGLIB_CAN ../../../ISOAgLib-tutorial-private/src/IsoAgLib/hal/esp32/can
+#define HAL_PATH_SUPPLEMENTARY_EEPROM ../../../ISOAgLib-tutorial-private/src/supplementary_driver/hal/esp32/eeprom
+#define HAL_PATH_SUPPLEMENTARY_RS232 ../../../ISOAgLib-tutorial-private/src/supplementary_driver/hal/esp32/rs232
+#define HAL_PATH_SUPPLEMENTARY_OUTPUTS ../../../ISOAgLib-tutorial-private/src/supplementary_driver/hal/esp32/outputs
+#define HAL_PATH_SUPPLEMENTARY_INPUTS ../../../ISOAgLib-tutorial-private/src/supplementary_driver/hal/esp32/inputs
 // keep HAL_PATH_SUPPLEMENTARY_DATASTREAMS undefined as this module is not available for the given configuration/target
 
 
