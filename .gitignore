@@ -32,3 +32,5 @@
 *.app
 
 eclipse-workspace/.metadata/.plugins/org.eclipse.cdt.core/.log
+
+*.old
